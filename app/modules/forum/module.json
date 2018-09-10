@@ -1,0 +1,1 @@
+{"author":"Expressif","name":"Forum","description":"Forum module allowing members to create and participate to threads and discussions","compatibility":"Expressif 1.0+","php":"7.0","modules_dependencies":["members"],"activated":"1"}

@@ -1,0 +1,11 @@
+home                = Accueil
+myArticles          = Mes articles
+writeArticle        = Rédiger article
+draft               = Brouillon
+beingValidated      = En cours de validation
+published           = Publié
+refused             = Refusé
+see                 = Voir
+edit                = Editer
+remove              = Supprimer
+noPublishedArticles = Aucun article publié pour le moment

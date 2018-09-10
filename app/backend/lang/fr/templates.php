@@ -1,0 +1,11 @@
+templatesManager           = Gestionnaire de templates
+backend                    = Backend
+preview                    = Aperçu
+description                = Description
+delete                     = Désinstaller
+removeTemplateConfirmation = Voulez-vous vraiment désinstaller ce template ? Aucun retour en arrière possible.
+uploadTemplate             = Upload template
+info                       = Info
+uploadTemplateInfo         = Les tempolates doivent être installés en utilisant cet outil parce qu'ils passent d'abord par un processus de vérification afin d'assurer leur fiabilité. <u>L'upload FTP doit être évité</u>.
+templateFolder             = Fichier ZIP template
+upload                     = Installer

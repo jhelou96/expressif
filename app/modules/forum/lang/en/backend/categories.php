@@ -1,0 +1,13 @@
+categories                 = Categories
+forum                      = Forum
+category                   = Category
+modules                    = Modules
+backend                    = Backend
+action                     = Action
+editCategory               = Edit category
+categoryName               = Category name
+edit                       = Edit
+noCategoriesCreated        = No categories created
+newCategory                = New category
+remove                     = Remove
+removeCategoryConfirmation = Do you really want to remove this category ? This action cannot be undone.

@@ -1,0 +1,83 @@
+.forum-box-default, .forum-box-success {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #C9C9C9;
+    min-height: 100px;
+}
+.forum-box-default:after, .forum-box-default:before,
+.forum-box-success:after, .forum-box-default:before {
+    right: 100%;
+    top: 60px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.forum-box-default:after, .forum-box-success:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #ffffff;
+    border-width: 20px;
+    margin-top: -40px;
+}
+.forum-box-default:before, .forum-box-success:before {
+    border-color: rgba(87, 87, 87, 0);
+    border-right-color: #C9C9C9;
+    border-width: 21px;
+    margin-top: -41px;
+}
+.forum-box-default .box-header, .forum-box-success .box-header {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+.forum-box-default .box-header a, .forum-box-success .box-header a {
+    text-decoration: none;
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 16px;
+    color: #737373;
+    padding-bottom: 3px;
+}
+.forum-box-default .box-header .date a, .forum-box-success .box-header .date a {
+    color: #929292;
+    font-size: 14px;
+}
+.forum-box-default .box-header a:hover, .forum-box-success .box-header a:hover {
+    border-bottom: 1px solid #2D5287;
+    color: #4778BD;
+}
+.forum-box-default .box-body, .forum-box-success .box-body {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.forum-box-default .box-footer, .forum-box-success .box-footer {
+    color: #ADADAD;
+    border-top: 1px solid #E0E0E0;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.forum-box-success {
+    background: #D5FFC6;
+}
+.forum-box-success:after {
+    border-color: rgba(213, 255, 198, 0);
+    border-right-color: #D5FFC6;
+}
+.forum-box-success:before {
+    border-color: rgba(201, 201, 201, 0);
+    border-right-color: #C9C9C9;
+}
+.forum-box-success .box-header a {
+    border-bottom: 1px solid #9C9C9C;
+    color: #505050;
+}
+.forum-box-success .box-header .date a {
+    color: #8A8B8A;
+}
+.forum-box-success .box-footer {
+    color: #8A8B8A;
+    border-top: 1px solid #B2B2B2;
+}

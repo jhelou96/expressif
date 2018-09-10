@@ -1,0 +1,12 @@
+title                            = Forums
+home                             = Accueil
+forum                            = Forum
+newThread                        = Nouveau sujet
+pageHeader                       = Nouveau sujet
+preview                          = Aperçu
+msgNotPublishedYet               = Message pas encore publié.
+warningHowToSendMsg              = Attention: Pour envoyer ce message, cliquez sur le bouton "Envoyer" ci-dessous.
+editor                           = Editeur
+send                             = Envoyer
+threadTitle                      = Titre sujet
+msgContent                       = Contenu message

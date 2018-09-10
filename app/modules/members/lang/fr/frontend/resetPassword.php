@@ -1,0 +1,9 @@
+resetPassword                         = Réinitialiser mot de passe
+members                               = Membres
+home                                  = Accueil
+warning                               = Attention!
+success                               = Succès!
+password                              = Mot de passe
+passwordConfirmation                  = Confirmation mot de passe
+reset                                 = Réinitialiser
+passwordConfirmationDoesntMatch       = Le mot de passe et sa confirmation ne correspondent pas.

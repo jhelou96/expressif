@@ -1,0 +1,11 @@
+articles               = Articles
+modules                = Modules
+backend                = Backend
+title                  = Title
+description            = Description
+category               = Category
+publicationDate        = Publication date
+action                 = Action
+see                    = See
+moderate               = Moderate
+noArticlesPublishedYet = No articles published yet

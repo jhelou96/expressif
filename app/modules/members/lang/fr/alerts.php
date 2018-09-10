@@ -1,0 +1,43 @@
+#ERRORS#
+warning                              = Attention!
+usernameCannotBeEmpty                = Le pseudo ne peut être vide.
+usernameDoesntExist                  = Le pseudo renseigné n'existe pas.
+passwordDoesntMatch                  = Le mot de passe ne correponds pas au pseudo fourni.
+accountNotValidated                  = Votre compte doit être validé à l'aide du lien qui vous a été envoyé par mail.
+accountBanned                        = Votre compte a été banni
+usernameShouldBeAlphanumeric         = Le pseudo doit être alphanumérique.
+passwordShouldBeAtLeast6Chars        = Le mot de passe doit contenir au moins 6 caractères.
+passwordCannotBeEmpty                = Le mot de passe ne peut être vide.
+rulesMustBeAccepted                  = Vous venez lire et accepter la charte.
+emailAlreadyExists                   = L'adresse email renseignée existe déjà. 
+usernameAlreadyExists                = Le pseudo renseigné existe déjà.
+passwordShouldMatchConfirmation      = Le mot de passe et sa confirmation ne correspondent pas.
+searchFieldCannotBeEmpty             = Le champs de recherche ne peut être vide.
+memberDoesNotExist                   = Le membre n'existe pas.
+memberWithHigherLevelCannotBeBanned  = Les membres ayant un niveau supérieur ou égal au votre ne peuvent être banni.
+member_idShouldBeNumeric             = ID du membre doit être numérique..
+member_idCannotBeEmpty               = ID du membre ne peut être vide.
+member_usernameShouldBeAlphanumeric  = Le pseudo doit être alphanumérique.
+member_usernameCannotExceed30Chars   = Le pseudo ne peut excéder 30 caractères.
+member_usernameShouldBeAtLeast3Chars = Le pseudo doit contenir au moins 3 caractères.
+member_usernameShouldBeString        = Le pseudo doit être une chaîne de caractères.
+member_usernameCannotBeEmpty         = Le pseudo ne peut être vide.
+member_passwordShouldBeAtLeast6Chars = Le mot de passe doit contenir au moins 6 caractères.
+member_passwordShouldBeString        = Le mot de passe doit être une chaîne de caractères.
+member_passwordCannotBeEmpty         = Le mot de passe ne peut être vide.
+member_invalidEmailFormat            = Format de l'adresse email invalide.
+member_emailCannotBeEmpty            = L'adresse email ne peut être vide.
+member_registrationDateCannotBeEmpty = La date d'inscription ne peut être vide.
+member_lastQueryShouldBeNumeric      = Le timestamp de la dernière requête du membre doit être numérique.
+
+#SUCCESSES#
+success                              = Succès!
+tokenProcessed                       = Votre compte est maintenant activé, vous pouvez vous connecter.
+passwordResetMailSent                = Un mail a été envoyé à l'adresse email renseignée.
+passwordResetEmailDoesntExist        = L'adresse email renseignée n'existe pas.
+passwordResetSuccessfully            = Le mot de passe a été réinitialisé.
+registrationSucceeded                = Félicitations, vous êtes maintenant inscrit. Afin de vous connecter, vous devez d'abord activer votre compte à l'aide du lien qui vous a été envoyé par email.
+settingsUpdated					     = Vos paramètres ont été mis à jour
+memberGroupHasBeenChanged            = Le groupe du membre a été changé.
+memberHasBeenBanned                  = Le membre a été banni.
+memberHasBeenUnbanned                = Le membre a été débanni.

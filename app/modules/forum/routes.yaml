@@ -1,0 +1,30 @@
+#FRONTEND ROUTES#
+
+frontend_forum: 	                       ["GET", "/forum", "app\modules\forum\ForumFrontController#forum"]
+frontend_forum_search:                     ["POST", "/forum/search", "app\modules\forum\ForumFrontController#search"]
+frontend_forum_showCategory: 	           ["GET", "/forum/[:category]", "app\modules\forum\ForumFrontController#showSubCategory"]
+frontend_forum_showCategoryPage: 	       ["GET", "/forum/[:category]/page/[i:page]", "app\modules\forum\ForumFrontController#showSubCategory"]
+frontend_forum_showTopic: 	               ["GET", "/forum/[:category]/[:topic]", "app\modules\forum\ForumFrontController#showTopic"]
+frontend_forum_showTopicPage: 	           ["GET", "/forum/[:category]/[:topic]/page/[i:page]", "app\modules\forum\ForumFrontController#showTopic"]
+frontend_forum_showTopicPost:              ["POST", "/forum/[:category]/[:topic]", "app\modules\forum\ForumFrontController#showTopic"]
+frontend_forum_showTopicPagePost: 	       ["POST", "/forum/[:category]/[:topic]/page/[i:page]", "app\modules\forum\ForumFrontController#showTopic"]
+frontend_forum_editMsg:                    ["GET", "/forum/[:category]/[:topic]/action/edit-message/[i:idMsg]", "app\modules\forum\ForumFrontController#editMsg"]
+frontend_forum_editMsgPost:                ["POST", "/forum/[:category]/[:topic]/action/edit-message/[i:idMsg]", "app\modules\forum\ForumFrontController#editMsg"]
+frontend_forum_removeMsg:                  ["GET", "/forum/[:category]/[:topic]/action/delete-message/[i:idMsg]", "app\modules\forum\ForumFrontController#removeMsg"]
+frontend_forum_likeMsg:                    ["GET", "/forum/[:category]/[:topic]/action/[like|dislike:action]-message/[i:idMsg]", "app\modules\forum\ForumFrontController#likeMsg"]
+frontend_forum_msgHelped:                  ["GET", "/forum/[:category]/[:topic]/action/message-helped/[i:idMsg]", "app\modules\forum\ForumFrontController#msgHelpedAuthor"]
+frontend_forum_newTopic:                   ["GET", "/forum/[:category]/action/new-topic", "app\modules\forum\ForumFrontController#newTopic"]
+frontend_forum_newTopicPost:               ["POST", "/forum/[:category]/action/new-topic", "app\modules\forum\ForumFrontController#newTopic"]
+frontend_forum_solvedTopic:                ["GET", "/forum/[:category]/[:topic]/action/topic-[solved|not-solved:action]", "app\modules\forum\ForumFrontController#solvedTopic"]
+frontend_forum_postitTopic:                ["GET", "/forum/[:category]/[:topic]/action/[pin|detach:action]-topic", "app\modules\forum\ForumFrontController#postitTopic"]
+frontend_forum_lockTopic:                  ["GET", "/forum/[:category]/[:topic]/action/[lock|unlock:action]-topic", "app\modules\forum\ForumFrontController#lockTopic"]
+frontend_forum_deleteTopic:                ["GET", "/forum/[:category]/[:topic]/action/delete-topic", "app\modules\forum\ForumFrontController#removeTopic"]
+
+#BACKEND ROUTES#
+
+backend_forum_categories:                  ["GET", "/backend/modules/manage/forum", "app\modules\forum\ForumBackController#categories"]
+backend_forum_categoriesPost: 	           ["POST", "/backend/modules/manage/forum", "app\modules\forum\ForumBackController#categories"]
+backend_forum_categories_remove:           ["GET", "/backend/modules/manage/forum/categories/remove/[i:id]", "app\modules\forum\ForumBackController#removeCategory"]
+backend_forum_subcategories:               ["GET", "/backend/modules/manage/forum/subcategories", "app\modules\forum\ForumBackController#subcategories"]
+backend_forum_subcategoriesPost: 	       ["POST", "/backend/modules/manage/forum/subcategories", "app\modules\forum\ForumBackController#subcategories"]
+backend_forum_subcategories_remove:        ["GET", "/backend/modules/manage/forum/subcategories/remove/[i:id]", "app\modules\forum\ForumBackController#removeSubCategory"]

@@ -1,0 +1,16 @@
+home                        = Accueil
+messaging                   = Messagerie
+readThread                  = Lire Thread
+msgContent                  = Contenu du message
+editor                      = Editeur
+send                        = Envoyer
+member                      = Membre
+administrator               = Administrateur
+moderator                   = Modérateur
+nbParticipants              = Nombre de participants
+threadCreationDate          = Thread crée le
+nbMessages                  = Nombre de messages
+participants                = Participants
+threadInfos                 = Informations sur le thread
+deleteThread                = Supprimer thread
+deleteThreadConfirmation    = Êtes-vous sûr de vouloir supprimer le thread ?

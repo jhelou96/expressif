@@ -1,0 +1,17 @@
+register                            = Register
+members                             = Members
+home                                = Home
+alreadyRegistered                   = Already registered ?
+linkToConnect                       = Click here to login
+registerToday                       = Register today
+username                            = Username
+password                            = Password
+email                               = Email
+IAgreeTo                  		    = I agree to the
+rules                               = rules
+reasonsToRegister                   = Why should I register
+timeToRegister                      = It will take no more than <u>20 seconds</u> !
+participateOnForums                 = Participate or start your own discussions on the forums !
+commentArticles                     = Comment and give your opinion on our articles !
+writeArticles                       = Write and publish your own articles !
+andMore                             = And much more...

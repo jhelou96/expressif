@@ -1,0 +1,15 @@
+moderateArticle           = Moderate article
+articles                  = Articles
+modules                   = Modules
+backend                   = Backend
+editArticle               = Edit article
+returnBack                = Return back
+preview                   = Preview
+editor                    = Editor
+articleContent            = Article content
+articleTitle              = Article title
+articleDescription        = Article description
+category                  = Category
+refuseArticle             = Refuse article
+refuseArticleConfirmation = Are you sure you want to refuse this article ? This action cannot be undone
+validateArticle           = Validate article

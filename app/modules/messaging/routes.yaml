@@ -1,0 +1,11 @@
+#FRONTEND ROUTES#
+
+frontend_messaging_inbox: 	                                 ["GET", "/messaging", "app\modules\messaging\MessagingFrontController#inbox"]
+frontend_messaging_inboxPage:                                ["GET", "/messaging/page/[i:page]", "app\modules\messaging\MessagingFrontController#inbox"]
+frontend_messaging_readThread: 	                             ["GET", "/messaging/thread/[i:idThread]", "app\modules\messaging\MessagingFrontController#readThread"]
+frontend_messaging_readThreadPage: 	                         ["GET", "/messaging/thread/[i:idThread]/page/[i:page]", "app\modules\messaging\MessagingFrontController#readThread"]
+frontend_messaging_newMsg:                                   ["POST", "/messaging/thread/[i:idThread]", "app\modules\messaging\MessagingFrontController#readThread"]
+frontend_messaging_newThread:                                ["GET", "/messaging/thread/new/[a:username]?", "app\modules\messaging\MessagingFrontController#newThread"]
+frontend_messaging_newThreadPost:                            ["POST", "/messaging/thread/new", "app\modules\messaging\MessagingFrontController#newThread"]
+frontend_messaging_deleteThread:                             ["GET", "/messaging/thread/[i:idThread]/delete", "app\modules\messaging\MessagingFrontController#deleteThread"]
+frontend_messaging_favoriteThread:                           ["GET", "/messaging/thread/[i:idThread]/favorite", "app\modules\messaging\MessagingFrontController#threadFavorite"]

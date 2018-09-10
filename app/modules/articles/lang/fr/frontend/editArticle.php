@@ -1,0 +1,10 @@
+home          = Accueil
+editArticle   = Editer article
+myArticles    = Mes articles
+editor        = Editeur
+content       = Contenu
+title         = Titre
+description   = Description
+category      = Catégorie
+submitArticle = Soumettre article
+saveForLater  = Sauvegarder pour plus tard

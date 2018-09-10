@@ -1,0 +1,10 @@
+home                            = Acccueil
+settings                        = Paramètres
+members                         = Membres
+leavePswdEmptyIfNoChangesWanted = Laissez le mot de passe vide si vous ne voulez pas le changer.
+email                           = Email
+password                        = Mot de passe
+passwordConfirmation            = Confirmation mot de passe
+avatar                          = Avatar
+signature                       = Signature
+save                            = Sauvegarder

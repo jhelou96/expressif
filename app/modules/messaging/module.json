@@ -1,0 +1,1 @@
+{"author":"Expressif","name":"Messaging","description":"Messaging module allowing members to send messages to other members","compatibility":"Expressif 1.0+","php":"7.0","modules_dependencies":["members"],"activated":"1"}

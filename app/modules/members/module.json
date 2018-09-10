@@ -1,0 +1,9 @@
+{
+  "author":"Expressif",
+  "name":"Member area",
+  "description":"Member area module allowing users to create and manage an account",
+  "compatibility":"Expressif 1.0+",
+  "php":"7.0",
+  "modules_dependencies":[],
+  "activated":"1"
+}

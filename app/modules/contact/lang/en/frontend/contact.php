@@ -1,0 +1,9 @@
+home                 = Home
+contact              = Contact
+contactUs            = Contact us
+yourEmailAddress     = Your email address
+emailAddress         = Email address
+subjectOfYourMessage = Subject of your message
+subject              = Subject
+message              = Message
+send                 = Send

@@ -1,0 +1,9 @@
+resetPassword                         = Reset password
+members                               = Members
+home                                  = Home
+warning                               = Warning!
+success                               = Success!
+password                              = Password
+passwordConfirmation                  = Password confirmation
+reset                                 = Reset
+passwordConfirmationDoesntMatch       = The confirmation doesn't match with the password provided.

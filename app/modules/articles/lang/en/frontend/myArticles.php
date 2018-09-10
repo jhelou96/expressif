@@ -1,0 +1,11 @@
+home                = Home
+myArticles          = My articles
+writeArticle        = Write article
+draft               = Draft
+beingValidated      = Being validated
+published           = Published
+refused             = Refused
+see                 = See
+edit                = Edit
+remove              = Remove
+noPublishedArticles = No published articles

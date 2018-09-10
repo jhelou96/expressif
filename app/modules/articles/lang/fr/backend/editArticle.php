@@ -1,0 +1,15 @@
+moderateArticle           = Modérer article
+articles                  = Articles
+modules                   = Modules
+backend                   = Backend
+editArticle               = Editer article
+returnBack                = Retourner en arrière
+preview                   = Aperçu
+editor                    = Editeur
+articleContent            = Contenu de l'article
+articleTitle              = Titre de l'article
+articleDescription        = Description de l'article
+category                  = Catégorie
+refuseArticle             = Refuser l'article
+refuseArticleConfirmation = Êtes-vous sûr de vouloir refuser l'article ? Ce dernier sera supprimé.
+validateArticle           = Valider article

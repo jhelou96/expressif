@@ -1,0 +1,14 @@
+configuration             = Configuration
+backend                   = Backend
+websiteName               = Website name
+serverURL                 = Server URL
+cmsPath                   = Website Path
+defaultLang               = Default lang
+frontendTheme             = Frontend theme
+webmasterEmail            = Webmaster email
+webmasterEmailUse         = This email address will be displayed when the system will send emails to users.
+backendTheme              = Backend theme
+timezone                  = Timezone
+websiteMaintenance        = Put website in maintenance and close its access to visitors and members
+websiteMaintenanceWarning = <strong>Warning:</strong> If you logout, you won't be able to access this interface anymore and will need to change the maintenance status to "0" directly from the config/config.json file.
+submit                    = Submit

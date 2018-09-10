@@ -1,0 +1,1 @@
+{"author":"Expressif","name":"Articles","description":"Official module allowing members to write and publish articles","compatibility":"Expressif 1.0+","php":"7.0","modules_dependencies":["members"],"activated":"1"}

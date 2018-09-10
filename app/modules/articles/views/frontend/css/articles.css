@@ -1,0 +1,16 @@
+/* List of articles member area */
+.list-articles .status {
+    width: 100px;
+    text-align: center;
+}
+.list-articles .label {
+    font-size: 13px;
+}
+.list-articles .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #615858;
+}
+.list-articles .action {
+    width: 50px;
+}

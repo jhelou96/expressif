@@ -1,0 +1,11 @@
+title               = Forums
+home                = Home
+forum               = Forum
+editMsg             = Edit message
+pageHeader          = Edit a message
+preview             = Preview
+msgNotPublishedYet  = Message not published yet.
+warningHowToSendMsg = Warning: If you want to send this message, click on the "Send" button below.
+editor              = Editor
+send                = Send
+msgContent          = Message content

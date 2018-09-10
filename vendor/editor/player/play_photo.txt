@@ -1,0 +1,3 @@
+{"playlist":[
+{"comment":"Sample Image","file":"http://runsite.ru/media/big_wbd.png","poster":"http://runsite.ru/media/small_wbd.png"},
+{"comment":"Image title","file":"http://runsite.ru/images/banners/bisar.png","poster":"http://runsite.ru/images/banners/bisar.png"}]}

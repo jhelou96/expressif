@@ -1,0 +1,11 @@
+pages                  = Pages
+modules                = Modules
+backend                = Backend
+page                   = Page
+action                 = Action
+noPagesCreated         = No pages created
+edit                   = Edit
+see                    = See
+remove                 = Remove
+removePageConfirmation = Do you really want to remove this page ? This action cannot be undone.
+setAsHomepage          = Set as homepage

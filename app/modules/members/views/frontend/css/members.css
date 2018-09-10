@@ -1,0 +1,12 @@
+/* Reasons to register list */
+ul.registrationList {
+    list-style-image: url('../images/bullet.png');
+    list-style-position: outside;
+}
+ul.registrationList li {
+    padding: 8px;
+    margin: 0px;
+    font-size:15px;
+    letter-spacing: 2px;
+    font-style: italic;
+}

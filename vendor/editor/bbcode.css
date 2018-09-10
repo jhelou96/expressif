@@ -1,0 +1,98 @@
+/*//--------------------------------------------------------------------------------------------------|
+/*****************************************************************************************************|
+ * Project:     Mega Class BBODE                                                                      |
+//----------------------------------------------------------------------------------------------------|
+ * @link http://megatpl.com/                                                                          |
+ * @copyright 2012.                                                                                   |
+ * @author Eng Hossam Hamed <eng.h.hamed@gmail.com>                                                   |
+  * @author Eng Hossam Hamed <megatpl@gmail.com>                                                      |
+ * @package Megatpl                                                                                   |
+ * @version 1.0                                                                                       |
+//----------------------------------------------------------------------------------------------------|
+//----------------------------------------------------------------------------------------------------|
+******************************************************************************************************/
+/*##################################################################################################### Mega Class BBCODE */
+.editor {
+	border: 1px solid #D1D1D1;
+	background: #FAFAFA;
+	padding: 0;
+	width: 100%;
+	margin: 10px auto 0px;
+}
+
+.editor textarea {
+	border: none;
+	border-top: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	margin-bottom: -5px;
+}
+
+.editor h3{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+	background:transparent
+}
+
+.editor h3 {
+	background-color: #2C4766;
+	color: white; 
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 3px solid orange;
+	padding: 5px 10px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.editor ul.bbcodebuttons {
+	list-style:none;
+	padding:0;
+	margin:0; 
+	display:block;
+	margin-bottom:5px;
+	margin-left:9px;
+	border:1px solid #e7e7e7;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #f0f0f0; 
+	
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #4f85bb 0%, #fcfcfc 0%, #f0f0f0 100%); 
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f85bb), color-stop(0%,#fcfcfc), color-stop(100%,#f0f0f0)); 
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4f85bb 0%,#fcfcfc 0%,#f0f0f0 100%); 
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4f85bb 0%,#fcfcfc 0%,#f0f0f0 100%); 
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4f85bb 0%,#fcfcfc 0%,#f0f0f0 100%); 
+	/* IE10+ */
+	background: linear-gradient(to bottom, #4f85bb 0%,#fcfcfc 0%,#f0f0f0 100%); 
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#f0f0f0',GradientType=0 ); 
+	/* IE6-9 */
+}
+.editor ul.bbcodebuttons li {
+	float:left; 
+	display:block;
+	padding:2px 6px;
+	border-left:1px solid #e7e7e7;
+	cursor: pointer;
+}
+.editor ul.bbcodebuttons li:hover {background: #f0f0f0; /* Old browsers */background: -moz-linear-gradient(top, #f0f0f0 0%, #fcfcfc 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top, #f0f0f0 0%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top, #f0f0f0 0%,#fcfcfc 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top, #f0f0f0 0%,#fcfcfc 100%); /* IE10+ */background: linear-gradient(to bottom, #f0f0f0 0%,#fcfcfc 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */}
+.editor .first {border-left:2px;}
+.editor .bb_marg {margin-top:2px;}
+.editor ul.bbcodebuttons li a {display:block; height:20px; text-align:center;}
+.editor .bbleft{float:left;}
+.editor .bbright{float:right;}
+.editor .bb_smiles { border: 1px solid #cccccc; background-color: #f0f0f0; width: 120px; height:120px;padding:10px;visibility: inherit;overflow: auto;text-align:left;margin-top:2px;}
+.editor .bb_box {list-style:none;padding:0;margin:0; display:block;margin-bottom:5px; margin-left:9px;}
+.editor .bb_box li {border: 1px solid #D1D1D1;background:#fff url(images/menupop.gif) no-repeat left;padding: 3px 5px 3px 25px;margin: 0 3px;font-size: 8pt;float: left;cursor: pointer;}
+.editor .bb_box li:hover {background:#fff url(images/menupop.gif) no-repeat left;border: 1px solid #ABADB3;}
+.editor .bb_box li div {font-size: 10pt;cursor: pointer;}
+.editor .bb_boxed { border: 1px solid #D1D1D1; background: #fff; padding:2px;text-align:left;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;position: absolute;margin-left: -5px;overflow: auto;max-height: 280px;direction: rtl;}
+.editor .bb_box .bb_boxed {margin-left: -27px;}

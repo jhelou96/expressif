@@ -1,0 +1,22 @@
+#FRONTEND ROUTES#
+
+frondend_members_login: 	                 ["GET", "/members/login", "app\modules\members\MembersFrontController#login"]
+frondend_members_loginPost:                  ["POST", "/members/login", "app\modules\members\MembersFrontController#login"]
+frondend_members_register: 	                 ["GET", "/members/register", "app\modules\members\MembersFrontController#register"]
+frondend_members_registerPost: 	             ["POST", "/members/register", "app\modules\members\MembersFrontController#register"]
+frondend_members_logout:                     ["GET", "/members/logout", "app\modules\members\MembersFrontController#logout"]
+frondend_members_profile: 	                 ["GET", "/members/profile/[a:username]", "app\modules\members\MembersFrontController#profile"]
+frondend_members_registrationValidation:     ["GET", "/members/activate/[:token]", "app\modules\members\MembersFrontController#registrationValidation"]
+frondend_members_settings:                   ["GET", "/members/settings", "app\modules\members\MembersFrontController#settings"]
+frondend_members_settingsPost:               ["POST", "/members/settings", "app\modules\members\MembersFrontController#settings"]
+frondend_members_resetPassword:              ["GET", "/members/reset-password/[:token]", "app\modules\members\MembersFrontController#resetPassword"]
+frondend_members_resetPasswordPost:          ["POST", "/members/reset-password/[:token]", "app\modules\members\MembersFrontController#resetPassword"]
+frondend_members_requestPasswordReset:       ["POST", "/members/reset-password", "app\modules\members\MembersFrontController#requestPasswordReset"]
+
+#BACKEND ROUTES#
+
+backend_members:                             ["GET", "/backend/modules/manage/members", "app\modules\members\MembersBackController#members"]
+backend_membersPost:                         ["POST", "/backend/modules/manage/members", "app\modules\members\MembersBackController#members"]
+backend_membersPages:                        ["GET", "/backend/modules/manage/members/page/[i:page]", "app\modules\members\MembersBackController#members"]
+backend_members_changeGroup:                 ["POST", "/backend/modules/manage/members/[i:id]/change-group", "app\modules\members\MembersBackController#changeMemberGroup"]
+backend_members_changeStatus:                ["GET", "/backend/modules/manage/members/[i:id]/[ban|unban:action]", "app\modules\members\MembersBackController#changeMemberStatus"]

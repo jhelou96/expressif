@@ -1,0 +1,5 @@
+{"playlist":[
+{"comment":"Michiru&Keita - Maiko","file":"http://runsite.ru/images/videos/michiru_keita_maiko.flv","poster":"http://runsite.ru/images/videos/michiru_keita_maiko_tmb.jpg","bigposter":"http://runsite.ru/images/videos/michiru_keita_maiko_big.jpg","sub":"http://runsite.ru/images/videos/michiru_keita_maiko.ass"},
+{"comment":"Nostromo - Auriga","file":"http://runsite.ru/images/videos/nostromo_auriga.flv","poster":"http://runsite.ru/images/videos/nostromo_auriga_tmb.jpg","bigposter":"http://runsite.ru/images/videos/nostromo_auriga_big.jpg"},
+{"comment":"Nostromo - Running man","file":"http://runsite.ru/images/videos/nostromo_running_man.flv","poster":"http://runsite.ru/images/videos/nostromo_running_man_tmb.jpg","bigposter":"http://runsite.ru/images/videos/nostromo_running_man_big.jpg"}
+]}

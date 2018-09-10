@@ -1,0 +1,14 @@
+#FRONTEND ROUTES#
+
+frontend_pages_home: 	                ["GET", "/", "app\modules\pages\PagesFrontController#home"]
+frontend_pages_page:                    ["GET", "/pages/[:page]", "app\modules\pages\PagesFrontController#showPage"]
+
+#BACKEND ROUTES#
+
+backend_pages:                           ["GET", "/backend/modules/manage/pages", "app\modules\pages\PagesBackController#listPages"]
+backend_pages_new:                       ["GET", "/backend/modules/manage/pages/new", "app\modules\pages\PagesBackController#newPage"]
+backend_pages_newPost:                   ["POST", "/backend/modules/manage/pages/new", "app\modules\pages\PagesBackController#newPage"]
+backend_pages_edit:                      ["GET", "/backend/modules/manage/pages/[i:id]/edit", "app\modules\pages\PagesBackController#editPage"]
+backend_pages_editPost:                  ["POST", "/backend/modules/manage/pages/[i:id]/edit", "app\modules\pages\PagesBackController#editPage"]
+backend_pages_remove:                    ["GET", "/backend/modules/manage/pages/[i:id]/remove", "app\modules\pages\PagesBackController#removePage"]
+backend_pages_sethomepage:               ["GET", "/backend/modules/manage/pages/[i:id]/set-homepage", "app\modules\pages\PagesBackController#changeHomepage"]

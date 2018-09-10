@@ -1,0 +1,4 @@
+#FRONTEND ROUTES#
+
+frontend_contact: 	                ["GET", "/contact", "app\modules\contact\ContactFrontController#contact"]
+frontend_contactPost: 	            ["POST", "/contact", "app\modules\contact\ContactFrontController#contact"]

@@ -1,0 +1,9 @@
+home                 = Accueil
+contact              = Contact
+contactUs            = Contactez nous
+yourEmailAddress     = Votre adresse email
+emailAddress         = Adresse email
+subjectOfYourMessage = Sujet de votre message
+subject              = Sujet
+message              = Message
+send                 = Envoyer

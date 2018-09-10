@@ -1,0 +1,13 @@
+categories                 = Catégories
+forum                      = Forum
+category                   = Catégorie
+modules                    = Modules
+backend                    = Backend
+action                     = Action
+editCategory               = Editer catégorie
+categoryName               = Nom catégorie
+edit                       = Editer
+noCategoriesCreated        = Aucune catégorie crée
+newCategory                = Nouvelle catégorie
+remove                     = Supprimer
+removeCategoryConfirmation = Voulez-vous vraiment supprimer cette catégorie ? Cette action ne peut être annulée.

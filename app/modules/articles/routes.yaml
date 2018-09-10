@@ -1,0 +1,25 @@
+#FRONTEND ROUTES#
+
+frontend_articles: 	                         ["GET", "/articles", "app\modules\articles\ArticlesFrontController#articles"]
+frontend_articles_search:                    ["POST", "/articles/search", "app\modules\articles\ArticlesFrontController#search"]
+frontend_articles_write: 	                 ["GET", "/articles/my-articles/write", "app\modules\articles\ArticlesFrontController#writeArticle"]
+frontend_articles_writePost: 	             ["POST", "/articles/my-articles/write", "app\modules\articles\ArticlesFrontController#writeArticle"]
+frontend_articles_myArticles:                ["GET", "/articles/my-articles", "app\modules\articles\ArticlesFrontController#myArticles"]
+frontend_articles_edit:                      ["GET", "/articles/my-articles/edit/[i:id]", "app\modules\articles\ArticlesFrontController#editArticle"]
+frontend_articles_editPost:                  ["POST", "/articles/my-articles/edit/[i:id]", "app\modules\articles\ArticlesFrontController#editArticle"]
+frontend_articles_delete:                    ["GET", "/articles/my-articles/remove/[i:id]", "app\modules\articles\ArticlesFrontController#removeArticle"]
+frontend_articles_categories:                ["GET", "/articles/[:category]", "app\modules\articles\ArticlesFrontController#showCategory"]
+frontend_articles_categoriesPage:            ["GET", "/articles/[:category]/page/[i:page]", "app\modules\articles\ArticlesFrontController#showCategory"]
+frontend_articles_show: 	                 ["GET", "/articles/[:category]/[:titleArticle]", "app\modules\articles\ArticlesFrontController#showArticle"]
+
+#BACKEND ROUTES#
+
+backend_articles:                             ["GET", "/backend/modules/manage/articles", "app\modules\articles\ArticlesBackController#articles"]
+backend_articlesPage:                         ["GET", "/backend/modules/manage/articles/page/[i:page]", "app\modules\articles\ArticlesBackController#articles"]
+backend_articles_edit:                        ["GET", "/backend/modules/manage/articles/edit/[i:id]", "app\modules\articles\ArticlesBackController#editArticle"]
+backend_articles_editPost:                    ["POST", "/backend/modules/manage/articles/edit/[i:id]", "app\modules\articles\ArticlesBackController#editArticle"]
+backend_articles_refuse:                      ["GET", "/backend/modules/manage/articles/refuse/[i:id]", "app\modules\articles\ArticlesBackController#refuseArticle"]
+backend_articles_categories:                  ["GET", "/backend/modules/manage/articles/categories", "app\modules\articles\ArticlesBackController#categories"]
+backend_articles_categoriesPost:              ["POST", "/backend/modules/manage/articles/categories", "app\modules\articles\ArticlesBackController#categories"]
+backend_articles_categories_remove:           ["GET", "/backend/modules/manage/articles/categories/remove/[i:id]", "app\modules\articles\ArticlesBackController#removeCategory"]
+backend_articles_pending:                     ["GET", "/backend/modules/manage/articles/pending", "app\modules\articles\ArticlesBackController#pendingArticles"]

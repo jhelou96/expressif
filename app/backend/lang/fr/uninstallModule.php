@@ -1,0 +1,13 @@
+moduleUninstaller                 = Module Uninstaller
+modulesManager                    = Modules Manager
+backend                           = Backend
+moduleUninstallerTool             = Module uninstaller tool
+info                              = Info
+moduleUninstallationInfo          = You are about to remove this module permanently. This action cannot be undone.
+moduleUninstallationConfirmation  = Are you sure you want to uninstall this module ? This action cannot be undone.
+completeUninstallation            = Complete uninstallation
+simpleUninstallation              = Simple uninstallation
+uninstallationTypes               = Types of uninstallation
+simpleUninstallationDescription   =  Will remove all the module folders and files
+completeUninstallationDescription = Will remove all the module folders and files + the DB tables
+simpleUninstallationUtility       = Generally used to update the module to a newer version

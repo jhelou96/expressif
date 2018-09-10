@@ -1,0 +1,10 @@
+pendingArticles   = Articles en attente
+articles          = Articles
+modules           = Modules
+backend           = Backend
+title             = Titre
+description       = Description
+publicationDate   = Date de publication
+action            = Action
+moderate          = Modérer
+noPendingArticles = Aucun article en attente

@@ -1,0 +1,17 @@
+categories                 = Categories
+articles                   = Articles
+category                   = Category
+modules                    = Modules
+backend                    = Backend
+action                     = Action
+removeCategoryConfirmation = Do you really want to remove this category ? This action cannot be undone.
+editCategory               = Edit category
+info                       = Info
+thumbnailUploadInfo        = Don't upload a new thumbnail if you don't want to change the previous one.
+categoryName               = Category name
+thumbnail                  = Thumbnail
+edit                       = Edit
+noCategoriesCreated        = No categories created
+newCategory                = New category
+defaultThumbnailUpload     = If you don't upload any thumbnail, a default one will be assigned.
+remove                     = Remove

@@ -1,0 +1,3 @@
+{"playlist":[
+{"comment":"Sample Audio file","file":"http://runsite.ru/media/fly.mp3"},
+{"comment":"Audio file title","file":"http://runsite.ru/media/system.mp3"}]}

@@ -1,0 +1,17 @@
+categories                 = Catégories
+articles                   = Articles
+category                   = Catégorie
+modules                    = Modules
+backend                    = Backend
+action                     = Action
+removeCategoryConfirmation = Voulez-vous vraiment supprimer cette catégorie ? Cette action ne peut être annulée.
+editCategory               = Editer catégorie
+info                       = Info
+thumbnailUploadInfo        = N'envoyez pas de nouvelle vignette si vous ne voulez pas changer la précédente.
+categoryName               = Nom catégorie
+thumbnail                  = Vignette
+edit                       = Editer
+noCategoriesCreated        = Aucune catégorie crée
+newCategory                = Nouvelle catégorie
+defaultThumbnailUpload     = Si vous ne spécifiez aucune vignette, une par défaut sera utilisée
+remove                     = Supprimer

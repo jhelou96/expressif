@@ -1,0 +1,10 @@
+home          = Home
+editArticle   = Edit article
+myArticles    = My articles
+editor        = Editor
+content       = Content
+title         = Title
+description   = Description
+category      = Category
+submitArticle = Submit article
+saveForLater  = Save for later
