@@ -10,3 +10,11 @@ Expressif can be downloaded directly from the [official website](http://expressi
 
 Expressif is built on top of a modular architecture allowing programmers to fully customize the CMS by adding new plugins and themes. A complete [documentation](http://expressif.net/zirkon/docs/index.html) detailing all the classes and methods written is available.
 You can also contribute to Expressif by adding more translations. The CMS is currently available in french and english.
+
+## Author
+
+You can visit the author's website at the following address: [Author website](http://joeyhelou.com)
+
+## License
+
+This project is licensed under the GNU/GPL License - see the [LICENSE.md](https://github.com/jhelou96/budgey/blob/master/LICENSE) file for details
