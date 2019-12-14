@@ -1,6 +1,6 @@
 # expressif
 
-[Expressif](http://joeyhelou.com/expressif) is a PHP-based CMS allowing anyone to create a website without any programming language required.
+[Expressif](http://joeyhelou.com/expressif) is a PHP-based CMS allowing anyone to create a website without any prior knowledge in programming required. Users will be able to install and deploy a dynamic website within seconds.
 
 ## Installation
 
