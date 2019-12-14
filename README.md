@@ -8,7 +8,7 @@ Expressif can be downloaded directly from the [official website](http://expressi
 
 ## Contributing
 
-Expressif is built on top of a modular architecture allowing programmers to fully customize the CMS by adding new plugins and themes. A complete [documentation](http://joeyhelou.com/expressif/zirkon/docs/index.html) detailing all the classes and methods written is available.
+Expressif is built on top of a modular architecture allowing programmers to fully customize the CMS by adding new plugins and themes. A complete [documentation](http://expressif.000webhostapp.com/zirkon/docs/index.html) detailing all the classes and methods written is available.
 You can also contribute to Expressif by adding more translations. The CMS is currently available in french and english.
 
 ## Author
