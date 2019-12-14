@@ -1,10 +1,10 @@
 # expressif
 
-[Expressif](http://joeyhelou.com/expressif) is a PHP-based CMS allowing anyone to create a website without any prior knowledge in programming required. Users will be able to install and deploy a dynamic website within seconds.
+[Expressif](http://expressif.000webhostapp.com/) is a PHP-based CMS allowing anyone to create a website without any prior knowledge in programming required. Users will be able to install and deploy a dynamic website within seconds.
 
 ## Installation
 
-Expressif can be downloaded directly from the [official website](http://joeyhelou.com/expressif). The downloaded file is to be sent to a server using any FTP client. Once executed, the user is redirected to a detailed step by step installer that will allow to connect the CMS to a database.
+Expressif can be downloaded directly from the [official website](http://expressif.000webhostapp.com/). The downloaded file is to be sent to a server using any FTP client. Once executed, the user is redirected to a detailed step by step installer that will allow to connect the CMS to a database.
 
 ## Contributing
 
